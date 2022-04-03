@@ -1,0 +1,79 @@
+.proposal{
+    border: 1px solid #FFB1D2;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.proposal-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proposal-info-pic{
+    display: flex;
+    align-items: center;
+}
+
+.proposal-info-pic img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.proposal-info-pic span{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 14px;
+}
+
+.proposal-content-head h2{
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.proposal-content-desc p{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    max-width: 70ch;
+    line-height: 35px;
+}
+
+.proposal-btn{
+    font-family: "Dongle", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 4px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+}
+
+.active-btn{
+    color: black;
+    background: linear-gradient(
+        90deg,
+        #eaf1b8 0%,
+        #d0f3ce 25.31%,
+        #b0f2f0 50.31%,
+        #d9c5f5 76.87%,
+        #eeaef7 100%
+      );
+}
+
+.completed-btn{
+ background-color: #10B981;
+ color: #fff;
+}
+
+.inactive-btn{
+    border: 1px solid #D4D4D8;
+    color: #D4D4D8;
+    background-color: transparent;
+}

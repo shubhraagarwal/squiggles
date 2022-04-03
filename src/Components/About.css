@@ -1,0 +1,21 @@
+.about{
+    margin-left: 100px;
+    max-width: 640px;
+}
+
+.about h2{
+    margin-top: 110px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #FFB1D2;
+}
+
+.about p{
+    margin-top: 30px;
+    font-size: 36px;
+    color: white;
+}
+
+.what h2{
+    margin-top: 180px;
+}

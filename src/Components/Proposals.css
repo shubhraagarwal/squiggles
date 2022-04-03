@@ -1,0 +1,63 @@
+.proposals{
+    padding-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.proposals h1{
+    padding-top: 61px;
+    font-size: 80px;
+    color: #FFB1D2;
+}
+
+.own-squiggle{
+    margin-top: 180px;
+    border: 1px solid #FFB1D2;
+    height: fit-content;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding: 15px;
+}
+
+.own-squiggle-head h2{
+    text-align: center;
+    font-size: 80px;
+    color: #FFB1D2;
+    padding: 0px 10px;
+}
+
+.divider-parent{
+    display: flex;
+    justify-content: center;
+}
+
+.divider{
+    background-color: #FFB1D2;
+    height: 1px;
+    width: 380px;
+}
+
+.own-squiggle-desc p{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fff;
+    max-width: 30ch;
+}
+
+.own-squiggle-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.own-squiggle-btn button{
+    border-radius: 4px;
+    border: none;
+    margin-top: 20px;
+    height: 51px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 16px;
+    font-family: "Dongle", sans-serif;
+}
