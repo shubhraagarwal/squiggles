@@ -1,12 +1,12 @@
 .footer{
     overflow: hidden;
+    width: 110vw;
 }
+
 .footer img{
     margin-top: 140px;
-    /* width: 100vw;
-    background-image: url("../../public/images/footer.png");
-    background-size: cover; */
     height: 414px;
+    width: 110vw;
     margin-bottom: -30px;
     padding: 0px;
 }
