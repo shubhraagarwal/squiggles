@@ -1,0 +1,243 @@
+.full-proposal-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fullProposal {
+  margin-left: 100px;
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  margin-top: 140px;
+}
+
+.back span {
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffb1d2;
+  margin-left: 20px;
+}
+
+.full-proposal {
+  max-width: 650px;
+}
+
+.full-proposal-content-head h2 {
+  margin-top: 30px;
+  color: #ffb1d2;
+  font-size: 80px;
+  max-width: 21ch;
+}
+
+.full-proposal-content-desc p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.read-more {
+  display: flex;
+  max-width: 690px;
+  justify-content: center;
+}
+
+.read-more-btn {
+  padding: 8px 16px;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    90deg,
+    #eaf1b8 0%,
+    #d0f3ce 25.31%,
+    #b0f2f0 50.31%,
+    #d9c5f5 76.87%,
+    #eeaef7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.cast-vote {
+  border: 1px solid #ffb1d2;
+  max-width: 680px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.cast-vote h2 {
+  font-size: 80px;
+  color: #ffb1d2;
+}
+
+.vote-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.vote-options button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    90deg,
+    #eaf1b8 0%,
+    #d0f3ce 25.31%,
+    #b0f2f0 50.31%,
+    #d9c5f5 76.87%,
+    #eeaef7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-color: transparent;
+}
+
+.vote-giver {
+  border: 1px solid #ffb1d2;
+  max-width: 680px;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+.vote-giver h2 {
+  font-size: 80px;
+  color: #ffb1d2;
+}
+
+.vote-info {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    90deg,
+    #eaf1b8 0%,
+    #d0f3ce 25.31%,
+    #b0f2f0 50.31%,
+    #d9c5f5 76.87%,
+    #eeaef7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .special-btn {
+    color: #fff;
+  background: linear-gradient(
+    90deg,
+    rgba(234, 241, 184, 0.4) 0%,
+    rgba(208, 243, 206, 0.4) 25.31%,
+    rgba(176, 242, 240, 0.4) 50.31%,
+    rgba(217, 197, 245, 0.4) 76.87%,
+    rgba(238, 174, 247, 0.4) 100%
+  );
+} */
+
+.vote-info-btn {
+  display: flex;
+  justify-content: center;
+  width: 650px;
+}
+
+.extra-info {
+  border: 1px solid #ffb1d2;
+  margin-top: 160px;
+  width: 460px;
+  height: fit-content;
+  padding: 36px 16px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.time-limit {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #d4d4d8;
+}
+
+.time-limit p {
+  font-size: 24px;
+}
+
+.time-limit span {
+  font-size: 32px;
+}
+
+.vote-system {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #d4d4d8;
+}
+
+.vote-system p {
+  font-size: 24px;
+}
+
+.vote-system span {
+  font-size: 32px;
+}
+
+.result-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.vote-result h3 {
+  color: #ffb1d2;
+  font-size: 36px;
+}
+
+.result-info {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    90deg,
+    #eaf1b8 0%,
+    #d0f3ce 25.31%,
+    #b0f2f0 50.31%,
+    #d9c5f5 76.87%,
+    #eeaef7 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
