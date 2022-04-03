@@ -33,7 +33,7 @@ function FullProposal() {
                 <img src="images/squiggle-proposal-logo.png" alt="" />
                 <span>Squiggle Dao</span>
               </div>
-              <div className="proposal-info-status">
+              <div className="proposal-info-status full-proposal-info-status">
                 <button
                   className={
                     dummyProposals[index].status === "Active"
@@ -48,7 +48,7 @@ function FullProposal() {
               </div>
             </div>
 
-            <div className="proposal-content">
+            <div className="proposal-content full-proposal-content">
               <div className="full-proposal-content-head">
                 <h2>{dummyProposals[index].title}</h2>
               </div>
@@ -81,48 +81,52 @@ function FullProposal() {
             <div className="divider"></div>
           </div>
 
-          <div className="vote-info">
-            <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
-            <p>10 Squiggles</p>
-          </div>
-          <div className="vote-info">
-            <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
-            <p>10 Squiggles</p>
-          </div>
-          <div className="vote-info">
-            <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
-            <p>10 Squiggles</p>
-          </div>
-          <div className="vote-info">
-            <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
-            <p>10 Squiggles</p>
-          </div>
+          <div className="vote-info-div">
+            <div className="vote-info">
+              <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
+              <p>10 Squiggles</p>
+            </div>
+            <div className="vote-info">
+              <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
+              <p>10 Squiggles</p>
+            </div>
+            <div className="vote-info">
+              <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
+              <p>10 Squiggles</p>
+            </div>
+            <div className="vote-info">
+              <p>0x4f6742bADB049791CD9A37ea913f2BAC38d01279</p>
+              <p>10 Squiggles</p>
+            </div>
 
-          <button className="vote-info-btn vote-info special-btn">See More</button>
+            <div className="vote-options">
+              <button className="vote-info-btn">See More</button>
+            </div>
+          </div>
         </div>
       </section>
 
       <section className="extra-info">
         <div className="time-limit">
-            <p>Time Limit</p>
-            <span>2D:14H:32M:54S</span>
+          <p>Time Limit</p>
+          <span>2D:14H:32M:54S</span>
         </div>
 
         <div className="vote-system">
-            <p>Voting System</p>
-            <span>Single Choice</span>
+          <p>Voting System</p>
+          <span>Single Choice</span>
         </div>
 
         <div className="vote-result">
-            <h3>Results</h3>
-            <div className="result-info">
-                <p>Ice Cream</p>
-                <span>66.5%</span>
-            </div>
-            <div className="result-info">
-                <p>Candy</p>
-                <span>33.5%</span>
-            </div>
+          <h3>Results</h3>
+          <div className="result-info">
+            <p>Ice Cream</p>
+            <span>66.5%</span>
+          </div>
+          <div className="result-info">
+            <p>Candy</p>
+            <span>33.5%</span>
+          </div>
         </div>
       </section>
     </main>
