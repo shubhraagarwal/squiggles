@@ -60,6 +60,7 @@
     #d9c5f5 76.87%,
     #eeaef7 100%
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -101,6 +102,7 @@
     #d9c5f5 76.87%,
     #eeaef7 100%
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -137,6 +139,7 @@
     #d9c5f5 76.87%,
     #eeaef7 100%
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -159,9 +162,27 @@
 } */
 
 .vote-info-btn {
-  display: flex;
-  justify-content: center;
-  width: 650px;
+  margin-top: 10px;
+  padding: 8px 16px;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  margin-top: 20px;
+  font-family: "Dongle";
+  font-size: 24px;
+  font-weight: bold;
+  background: -webkit-linear-gradient(
+    90deg,
+    #eaf1b8 0%,
+    #d0f3ce 25.31%,
+    #b0f2f0 50.31%,
+    #d9c5f5 76.87%,
+    #eeaef7 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  background-color: transparent;
 }
 
 .extra-info {
@@ -234,10 +255,78 @@
     #d9c5f5 76.87%,
     #eeaef7 100%
   );
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
   background-color: transparent;
   display: flex;
   flex-direction: row;
+}
+
+.vote-info-div button{
+  text-align: center;
+}
+
+@media screen and (max-width: 1240px) {
+  .fullProposal{
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .extra-info{
+    margin-left: 20px;
+    width: 300px;
+  }
+
+  .fullProposal {
+    margin-left: 20px;
+  }
+
+  .full-proposal-content {
+    margin-right: 20px;
+  }
+
+  .full-proposal-info-status {
+    margin-right: 20px;
+  }
+
+  .full-proposal-main {
+    flex-direction: column-reverse;
+  }
+
+  .full-proposal-content-head h2 {
+    font-size: 40px;
+  }
+
+  .full-proposal-content-desc p {
+    font-size: 24px;
+  }
+
+  .cast-vote{
+    margin-right: 20px;
+  }
+
+  .vote-giver{
+    margin-right: 20px;
+  }
+
+  .cast-vote h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .divider-div{
+    display: flex;
+    justify-content: center;
+  }
+
+  .vote-giver h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .vote-info-btn{
+  }
 }

@@ -11,8 +11,6 @@ textarea::-webkit-scrollbar {
 
 .new-proposal-info h2 {
   margin-top: 85px;
-  font-size: 80px;
-  color: #ffb1d2;
 }
 
 .new-proposal-info p {
@@ -152,4 +150,37 @@ textarea:focus {
 .select-options select:focus{
   border: 1px solid #D4D4D8;
   outline: none;
+}
+
+@media screen and (max-width: 768px) {
+  .new-proposal{
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .new-proposal-info h2{
+     font-size: 40px;
+  }
+
+  .new-proposal-info p{
+    font-size: 24px;
+  }
+
+  #new-proposal-input-head{
+    font-size: 40px;
+  }
+
+  #new-proposal-input-desc{
+    font-size: 24px;
+  }
+
+  .draft-control{
+    width: 300px;
+    margin-left: 20px;
+  }
+
+  .submit-prompt{
+    width: 300px;
+    left: 8%;
+  }
 }

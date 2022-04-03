@@ -1,7 +1,10 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+import { useState } from "react";
 
 function Navbar() {
+  const [ShowMobileNav, setShowMobileNav] = useState(false);
+
   return (
     <nav>
       <Link to="/">
@@ -24,7 +27,7 @@ function Navbar() {
         </div>
       </Link>
 
-      <div className="nav-txt">
+      <div className={ShowMobileNav === true ? "nav-txt-mob" : "nav-txt"}>
         <Link className="link" to="/">
           <p>Proposals</p>
         </Link>
@@ -37,7 +40,24 @@ function Navbar() {
       </div>
 
       <div className="nav-btn">
-        <button>Connect Wallet</button>
+        <button className={ShowMobileNav ? "hide" : ""}>Connect Wallet</button>
+
+        <svg
+          onClick={() => {
+            setShowMobileNav(!ShowMobileNav);
+          }}
+          className="hamburger"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="24"
+          height="24"
+        >
+          <path fill="none" d="M0 0h24v24H0z" />
+          <path
+            d="M3 4h18v2H3V4zm0 7h18v2H3v-2zm0 7h18v2H3v-2z"
+            fill="rgba(255,255,255,1)"
+          />
+        </svg>
       </div>
     </nav>
   );

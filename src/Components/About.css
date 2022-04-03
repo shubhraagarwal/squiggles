@@ -5,9 +5,7 @@
 
 .about h2{
     margin-top: 110px;
-    font-size: 80px;
     font-weight: bold;
-    color: #FFB1D2;
 }
 
 .about p{
@@ -18,4 +16,26 @@
 
 .what h2{
     margin-top: 180px;
+}
+
+@media screen and (max-width: 1240px) {
+    .about{
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .about h2 {
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .about p {
+        font-size: 24px;
+    }
 }

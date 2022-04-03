@@ -121,46 +121,48 @@ function NewProposal() {
         </article>
       </article>
 
-      <div className="draft-control">
-        <button
-          className={
-            ShowOtherBtns === true ? "hide" : "draft-control-btn preview-btn"
-          }
-        >
-          Preview
-        </button>
+      {/* <div className="draft-control-parent"> */}
+        <div className="draft-control">
+          <button
+            className={
+              ShowOtherBtns === true ? "hide" : "draft-control-btn preview-btn"
+            }
+          >
+            Preview
+          </button>
 
-        <button
-          onClick={handleSubmitPrompt}
-          className={
-            ShowOtherBtns === true ? "draft-control-btn preview-btn" : "hide"
-          }
-        >
-          Edit
-        </button>
+          <button
+            onClick={handleSubmitPrompt}
+            className={
+              ShowOtherBtns === true ? "draft-control-btn preview-btn" : "hide"
+            }
+          >
+            Edit
+          </button>
 
-        <button
-          className={
-            ShowOtherBtns === true ? "hide" : "draft-control-btn continue-btn"
-          }
-          onClick={
-            InputHeadValue !== "" || InputDescValue !== ""
-              ? handleChangeBtn
-              : ""
-          }
-        >
-          Continue
-        </button>
+          <button
+            className={
+              ShowOtherBtns === true ? "hide" : "draft-control-btn continue-btn"
+            }
+            onClick={
+              InputHeadValue !== "" || InputDescValue !== ""
+                ? handleChangeBtn
+                : ""
+            }
+          >
+            Continue
+          </button>
 
-        <button
-          onClick={handleSubmitPrompt}
-          className={
-            ShowOtherBtns === true ? "draft-control-btn active-btn" : "hide"
-          }
-        >
-          Submit
-        </button>
-      </div>
+          <button
+            onClick={handleSubmitPrompt}
+            className={
+              ShowOtherBtns === true ? "draft-control-btn active-btn" : "hide"
+            }
+          >
+            Submit
+          </button>
+        </div>
+      {/* </div> */}
     </section>
   );
 }
